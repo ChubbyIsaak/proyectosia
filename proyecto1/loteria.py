@@ -6,7 +6,7 @@ def main():
         numero = int(input(f"Ingrese el número ganador {i + 1}: "))
         numeros_ganadores.append(numero)
 
-    numeros_ganadores.sort(reverse=True)
+    numeros_ganadores.sort(reverse=False)
 
     print("Números ganadores (de mayor a menor):")
     for numero in numeros_ganadores:
