@@ -1,3 +1,9 @@
+# 1.	Escribir un programa que almacene las materias de un curso (por ejemplo IA, BDD, Matemáticas, inglés, POO) en una lista, pregunte al usuario la calificación obtenida en cada materia y después:
+# a.	Muestre en pantalla con el mensaje
+# i.	En <materia> has obtenido <calificación>
+# En donde cada <materia> es cada una de las materias de la lista y <calificación> cada una de las calificaciones introducidas por el usuario.
+
+
 def obtener_calificacion(materia):
     while True:
         try:
